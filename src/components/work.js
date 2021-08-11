@@ -11,57 +11,57 @@ function Work() {
         <div className="workbody">
             <div className="row sectioned justify-content-center">    
  
-                <a id="mainwork" class="col-10" href='https://github.com/atn362/crud_project/tree/Darren/branch' target='_blank'>
+                <a id="mainwork" className="col-10" href='https://github.com/atn362/crud_project/tree/Darren/branch' target='_blank'>
                     <div id="primary">
-                        <img class="images" src= { primary }/>
+                        <img className="images" src= { primary }/>
 
-                        <div class="overlay">
-                            <h3 class="overlayh3">Travel Blog</h3>
-                            <p class="overlayp">A team project Travel Blog. I worked on the front-end</p>
+                        <div className="overlay">
+                            <h3 className="overlayh3">Travel Blog</h3>
+                            <p className="overlayp">A team project Travel Blog. I worked on the front-end</p>
                         </div>
                     </div>
                 </a>
 
-                <a class="col-6 col-lg-6" id="subwork" href='https://deerran.github.io/WeatherDashboard/' target='_blank'>
+                <a className="col-6 col-lg-6" id="subwork" href='https://deerran.github.io/WeatherDashboard/' target='_blank'>
                     <div id="secondary">
-                        <img class="images" src={ weather } />
+                        <img className="images" src={ weather } />
 
-                        <div class="overlay">
-                            <h3 class="overlayh3">WeatherDashboard</h3>
-                            <p class="overlayp">A weather forecasting webpage</p>
+                        <div className="overlay">
+                            <h3 className="overlayh3">WeatherDashboard</h3>
+                            <p className="overlayp">A weather forecasting webpage</p>
                         </div>
                     </div>
                 </a>
 
-                <a class="col-6 col-lg-4" id="subwork" href='https://old-prego.github.io/pet-adoption/' target='_blank'>
+                <a className="col-6 col-lg-4" id="subwork" href='https://old-prego.github.io/pet-adoption/' target='_blank'>
                     <div id="secondary">
-                        <img class="images" src={ findpet } />
+                        <img className="images" src={ findpet } />
                         
-                        <div class="overlay">
-                            <h3 class="overlayh3">Petfinder</h3>
-                            <p class="overlayp">A website for finding pets</p>
+                        <div className="overlay">
+                            <h3 className="overlayh3">Petfinder</h3>
+                            <p className="overlayp">A website for finding pets</p>
                         </div>
                     </div>
                 </a>
 
-                <a class="col-6 col-lg-4" id="subwork" href='https://github.com/DeerRan/E-commerceBackend' target='_blank'>
+                <a className="col-6 col-lg-4" id="subwork" href='https://github.com/DeerRan/E-commerceBackend' target='_blank'>
                     <div id="secondary">                    
-                        <img class="images" src={ commerce } />
+                        <img className="images" src={ commerce } />
 
-                        <div class="overlay">
-                            <h3 class="overlayh3">E-commerce Backend</h3>
-                            <p class="overlayp">A backend that demonstrates technologies I learned</p>
+                        <div className="overlay">
+                            <h3 className="overlayh3">E-commerce Backend</h3>
+                            <p className="overlayp">A backend that demonstrates technologies I learned</p>
                         </div>
                     </div>
                 </a>
                 
-                <a class="col-6 col-lg-4" id="subwork" href='https://github.com/DeerRan/TechBlog' target='_blank'>
+                <a className="col-6 col-lg-4" id="subwork" href='https://github.com/DeerRan/TechBlog' target='_blank'>
                     <div id="secondary">                    
-                        <img class="images" src={ techblog } />
+                        <img className="images" src={ techblog } />
 
-                        <div class="overlay">
-                            <h3 class="overlayh3">Techblog</h3>
-                            <p class="overlayp">A functioning Techblog that demonstrates technologies I learned</p>
+                        <div className="overlay">
+                            <h3 className="overlayh3">Techblog</h3>
+                            <p className="overlayp">A functioning Techblog that demonstrates technologies I learned</p>
                         </div>
                     </div>
                 </a>
