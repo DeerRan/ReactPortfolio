@@ -80,7 +80,6 @@
 #subwork {
   padding: 0;
   margin: 20px auto;
-  width: 40%;
 }
 
 .images {
@@ -170,12 +169,13 @@
   height: 60px;
 }
 
-.col-2 {
+.col-1 {
   -webkit-transition: 0.5s;
   transition: 0.5s;
+  margin: auto;
 }
 
-.col-2:hover {
+.col-1:hover {
   opacity: 40%;
 }
 
@@ -199,4 +199,52 @@
 /* Handle */
 ::-webkit-scrollbar-thumb {
   background: rgb(180, 180, 180);
+}
+
+@media screen and (max-width: 600px) {
+  #bio h2 {
+    font-size: 20px;
+    padding-top: 50px;
+  }
+  #bio p {
+    font-size: 15px;
+  }
+  .logos {
+    height: 30px;
+  }
+  .num {
+    font-size: 13px;
+    font-weight: 400;
+    padding: 0;
+  }
+  .overlayh3 {
+    font-size: 20px;
+  }
+  .overlayp {
+    font-size: 15px;
+  }
+  #primary img {
+    height: 150px;
+    width: auto;
+  }
+  #secondary {
+    max-width: 80%;
+    margin: auto;
+  }
+  .workbody {
+    padding: 60px 10px 10px 10px;
+  }
+  .material-icons {
+    border: 2px solid white;
+  }
+  .drawer {
+    width: 40% !important;
+    background-color: black !important;
+  }
+  .resumebody {
+    padding: 10px;
+  }
+  .skillsdiv p {
+    font-size: 15px;
+  }
 }

@@ -1,23 +1,31 @@
 import React from "react";
-import { Layout, Header, Navigation, Content } from 'react-mdl';
+import { Layout, Header, Navigation, Content, Drawer } from 'react-mdl';
 import { Link, BrowserRouter as Router } from "react-router-dom";
 import Main from "./components/Main";
 import './App.css';
-import github from "./Assets/github.png"
-import linkedin from "./Assets/linkedin.png"
-import email from "./Assets/email.jpg"
+import Footer from "./components/footer"
 
 function App() {
   return (
     <div className="App">
       <Layout>
+      <Drawer
+        className="drawer"
+        variant="persistent"
+        anchor="left">
+          <Navigation>
+                <a href="/">About Me</a>
+                <a href="/work">My Work</a>
+                <a href="/resume">Resume</a>
+            </Navigation>
+        </Drawer>
         <Header title="Darren Scott" className="header" 
           style={{ backgroundColor: "black" , color: "rgb(180, 180, 180)" }}>
-          <Navigation>
+          <Navigation expand = "true">
             <Router>
-              <Link className="link" to="/">About Me</Link>
-              <Link className="link" to="/work">My Work</Link>
-              <Link className="link" to="/resume">Resume</Link>
+              <a className="link" href="/">About Me</a>
+              <a className="link" href="/work">My Work</a>
+              <a className="link" href="/resume">Resume</a>
             </Router>
           </Navigation>
 
@@ -25,23 +33,7 @@ function App() {
 
         <Content>
           <Main />
-          <div className="footer" style={{ backgroundColor: "black" }}>
-            {/* Insert A link wrap with img inside for github and linkedin */}
-            <div className="row justify-content-center">
-              <a className="col-2" href="https://github.com/DeerRan" target="_blank">
-                <img className="logos" src= { github } />
-              </a>
-
-              <a className="col-2" href="https://www.linkedin.com/in/DeerRan" target="_blank">
-                <img className="logos" src= { linkedin } />
-              </a>
-
-              <a className="col-2" href="mailto:Darren.Scott.0905@gmail.com" target="_blank">
-                <img className="logos" src= { email } />
-              </a>
-              <p className="col-2 num">612-834-1808</p>
-            </div>
-          </div>
+          <Footer />
         </Content>
       </Layout>
     </div>

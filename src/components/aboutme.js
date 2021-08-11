@@ -5,7 +5,7 @@ function Aboutme() {
     return (
         <div className="aboutmebody">
             <div id="aboutme" className="row sectioned justify-content-center">
-                <div id='bio' className="col-7">
+                <div id='bio' className="col-10 col-lg-7">
                     <div>
                         <h2>Who I am?</h2>
                         <p>
@@ -22,7 +22,7 @@ function Aboutme() {
                     </div>
                 </div>
 
-                <section className="selfie col-3">
+                <section className="selfie col-8 col-lg-3">
                     <img className="darrenpic" src={ darren } alt="A picture of Darren Scott"/>
                 </section>
             </div>

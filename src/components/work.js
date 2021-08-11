@@ -1,5 +1,5 @@
 import React from "react";
-import primary from "../Assets/MainProject.png"
+import primary from "../Assets/TravelBlogDemo.gif"
 import weather from "../Assets/weatherdash.png"
 import findpet from "../Assets/findpet.png"
 import commerce from "../Assets/commercebackend.png"
@@ -11,7 +11,7 @@ function Work() {
         <div className="workbody">
             <div className="row sectioned justify-content-center">    
  
-                <a id="mainwork" className="col-10" href='https://github.com/atn362/crud_project/tree/Darren/branch' target='_blank'>
+                <a id="mainwork" className="col-10" rel="noreferrer" href='https://github.com/atn362/crud_project/tree/Darren/branch' target='_blank'>
                     <div id="primary">
                         <img className="images" src= { primary }/>
 
@@ -22,7 +22,7 @@ function Work() {
                     </div>
                 </a>
 
-                <a className="col-6 col-lg-6" id="subwork" href='https://deerran.github.io/WeatherDashboard/' target='_blank'>
+                <a className="col-10 col-lg-6" id="subwork" rel="noreferrer" href='https://deerran.github.io/WeatherDashboard/' target='_blank'>
                     <div id="secondary">
                         <img className="images" src={ weather } />
 
@@ -33,7 +33,7 @@ function Work() {
                     </div>
                 </a>
 
-                <a className="col-6 col-lg-4" id="subwork" href='https://old-prego.github.io/pet-adoption/' target='_blank'>
+                <a className="col-6\10 col-lg-4" id="subwork" rel="noreferrer" href='https://old-prego.github.io/pet-adoption/' target='_blank'>
                     <div id="secondary">
                         <img className="images" src={ findpet } />
                         
@@ -44,7 +44,7 @@ function Work() {
                     </div>
                 </a>
 
-                <a className="col-6 col-lg-4" id="subwork" href='https://github.com/DeerRan/E-commerceBackend' target='_blank'>
+                <a className="col-10 col-lg-4" id="subwork" rel="noreferrer" href='https://github.com/DeerRan/E-commerceBackend' target='_blank'>
                     <div id="secondary">                    
                         <img className="images" src={ commerce } />
 
@@ -55,7 +55,7 @@ function Work() {
                     </div>
                 </a>
                 
-                <a className="col-6 col-lg-4" id="subwork" href='https://github.com/DeerRan/TechBlog' target='_blank'>
+                <a className="col-10 col-lg-4" id="subwork" rel="noreferrer" href='https://github.com/DeerRan/TechBlog' target='_blank'>
                     <div id="secondary">                    
                         <img className="images" src={ techblog } />
 
