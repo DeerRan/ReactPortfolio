@@ -8,23 +8,24 @@ function App() {
   return (
     <div className="App">
       <Layout>
-        <Header title="Darren Scott" className="header" style={{ backgroundColor: "black" }}>
+        <Header title="Darren Scott" className="header" 
+          style={{ backgroundColor: "black" , color: "rgb(180, 180, 180)" }}>
           <Navigation>
             <Router>
-              <Link to="/">About Me</Link>
-              <Link to="/work">My Work</Link>
-              <Link to="/resume">Resume</Link>
+              <Link className="link" to="/">About Me</Link>
+              <Link className="link" to="/work">My Work</Link>
+              <Link className="link" to="/resume">Resume</Link>
             </Router>
           </Navigation>
 
         </Header>
 
         <Content>
-          <Main></Main>
+          <Main />
           <div className="footer" style={{ backgroundColor: "black" }}>
             {/* Insert A link wrap with img inside for github and linkedin */}
 
-            <p style={{ color: "white" }}>
+            <p>
               FOOOOOOOOOOOOOOOOOOOOOOOT
             </p>
           </div>

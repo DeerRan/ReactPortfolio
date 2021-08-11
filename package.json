@@ -10,9 +10,10 @@
     "gh-pages": "^3.2.3",
     "react": "^17.0.2",
     "react-bootstrap": "^1.6.1",
-    "react-router-dom": "^5.2.0",
-    "react-mdl": "^2.1.0",
     "react-dom": "^17.0.2",
+    "react-mdl": "^2.1.0",
+    "react-router": "^5.2.0",
+    "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.3",
     "web-vitals": "^1.1.2"
   },
@@ -24,7 +25,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -b master -d build"
   },
-  "homepage": "https://github.com/DeerRan/ReactPortfolio",
+  "homepage": "https://github.com/",
   "eslintConfig": {
     "extends": [
       "react-app",

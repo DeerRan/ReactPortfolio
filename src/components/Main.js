@@ -6,13 +6,13 @@ import Resume from './resume'
 
 
 const Main = () => (
-  <Router>
-    <Switch>
-      <Route path="/" component={Aboutme} />
-      <Route path="/work" component={Work} />
-      <Route path="/resume" component={Resume} />
-    </Switch>
-  </Router>
+    <Router>
+      <Switch>
+        <Route exact path="/"> <Aboutme /> </Route>
+        <Route path="/work" > <Work /> </Route>
+        <Route path="/resume"> <Resume /> </Route>
+      </Switch>
+    </Router>
 );
 
 export default Main;
