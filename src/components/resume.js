@@ -1,9 +1,15 @@
 import React from "react";
+import resume from "../Assets/MyResume.pdf"
 
 function Resume() {
     return (
         <div className="resumebody">
-            <p>This is resumebody</p>
+            <p>My Resume</p>
+
+            <iframe 
+                className="iframe"
+                src= { resume }>
+            </iframe>
         </div>
     );
 }

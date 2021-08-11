@@ -23,7 +23,7 @@ function Aboutme() {
                 </div>
 
                 <section class="selfie col-3">
-                    <img src={ darren } alt="A picture of Darren Scott"/>
+                    <img className="darrenpic" src={ darren } alt="A picture of Darren Scott"/>
                 </section>
             </div>
         </div>

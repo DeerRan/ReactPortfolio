@@ -49,10 +49,99 @@
   font-weight: 500;
 }
 
-img {
+.darrenpic {
   margin: 25px;
   width: 75%;
   height: auto;
+}
+
+/* Work Styling */
+
+.workbody {
+  padding: 60px 40px 0px 40px;
+}
+
+#primary {
+  padding: 0;
+  height: auto;
+  position: relative;
+}
+
+#secondary {
+  padding: 0;
+  height: auto;
+  position: relative;
+}
+
+#mainwork {
+  margin: 40px auto;
+}
+
+#subwork {
+  padding: 0;
+  margin: 20px auto;
+  width: 40%;
+}
+
+.images {
+  width: 100%;
+  height: auto
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.overlay:hover  {
+  background-color: rgb(0, 0, 0, .75);
+}
+
+.overlayp, .overlayh3 {
+  background-color: rgb(255, 255, 255, 0);
+  color:rgb(219, 219, 219, 0);
+  width: 70%;
+  margin: 10px auto;
+  text-align: center;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.overlayp {
+  font-size: 25px;
+}
+
+.overlay:hover .overlayp, .overlay:hover .overlayh3 {
+  color:rgb(219, 219, 219);
+}
+
+/* Resume styling */
+
+.resumebody {
+  padding: 40px
+}
+
+.resumebody p {
+  text-align: center;
+  font-size: 40px;
+  padding: 0 0 20px 0;
+  height: fit-content;
+}
+
+.iframe {
+  height: 650px;
+  width: 100%;
+  margin: auto;
 }
 
 /* Footer Styling */
