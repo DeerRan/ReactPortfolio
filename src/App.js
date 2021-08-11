@@ -1,6 +1,6 @@
 import React from "react";
 import { Layout, Header, Navigation, Content } from 'react-mdl';
-import { Link } from "react-router-dom";
+import { Link, BrowserRouter as Router } from "react-router-dom";
 import Main from "./components/Main";
 import './App.css';
 
@@ -10,9 +10,11 @@ function App() {
       <Layout>
         <Header title="Darren Scott" className="header" style={{ backgroundColor: "black" }}>
           <Navigation>
-            <Link to="/">About Me</Link>
-            <Link to="/work">My Work</Link>
-            <Link to="/resume">Resume</Link>
+            <Router>
+              <Link to="/">About Me</Link>
+              <Link to="/work">My Work</Link>
+              <Link to="/resume">Resume</Link>
+            </Router>
           </Navigation>
 
         </Header>
