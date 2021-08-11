@@ -17,10 +17,6 @@
 - [Deployable Link](#deployable-link)
 ## Description  
 It's my portfolio! I deployed it incorrectly but it's up and running so I'm happy with it!
-##Screenshots
-
-## Demo
-
 ## Installation
 Grab it off github, run "npm install" and then run "npm run start". But this isn't really something you install 
 ## Usage
@@ -36,4 +32,4 @@ Link to my GitHub profile: https://github.com/DeerRan
 ## License
 This project is covered by the MIT license.
 ## Deployable Link
-
+https://deerran.github.io/ReactPortfolio/
