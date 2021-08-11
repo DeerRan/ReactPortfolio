@@ -4,12 +4,14 @@ import resume from "../Assets/MyResume.pdf"
 function Resume() {
     return (
         <div className="resumebody">
-            <p>My Resume</p>
+            <a className="link" href= { resume }>
+                <p>My Resume</p>
+            </a>
 
-            <iframe 
-                className="iframe"
-                src= { resume }>
-            </iframe>
+            <div className="skillsdiv">
+                <h1>My Skills</h1>
+                <p>React | JavaScript | HTML5 | Github | Bootstrap | NodeJS | Express | CSS</p>
+            </div>
         </div>
     );
 }

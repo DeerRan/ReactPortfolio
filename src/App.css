@@ -19,7 +19,7 @@
 
 .link:hover {
   color: rgb(255, 255, 255);
-  border-bottom: 3px solid white;
+  text-shadow: 2px 2px 25px white;
 }
 
 /* Header Styling */
@@ -136,12 +136,23 @@
   font-size: 40px;
   padding: 0 0 20px 0;
   height: fit-content;
+  margin: 50px auto 100px auto;
 }
 
-.iframe {
-  height: 650px;
-  width: 100%;
-  margin: auto;
+.skillsdiv h1 {
+  font-weight: 500;
+  letter-spacing: 5px;
+  text-align: center;
+  margin: 20px;
+}
+
+.skillsdiv p {
+  font-weight: 400;
+  text-align: center;
+  padding: 0;
+  margin: 30px;
+  font-size: 35px;
+  height: 50px;
 }
 
 /* Footer Styling */
@@ -153,6 +164,25 @@
   margin:0;
   text-align: center;
   color: rgb(180, 180, 180);
+}
+
+.logos {
+  height: 60px;
+}
+
+.col-2 {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.col-2:hover {
+  opacity: 40%;
+}
+
+.num {
+  font-size: 20px;
+  font-weight: 700;
+  padding: 15px;
 }
 
 /* Misc Styling */
