@@ -4,7 +4,7 @@ import weather from "../Assets/weatherdash.png"
 import findpet from "../Assets/findpet.png"
 import commerce from "../Assets/commercebackend.png"
 import techblog from "../Assets/techblog.png"
-
+import { Workmap } from "./project.js"
 
 function Work() {
     return (
@@ -22,7 +22,8 @@ function Work() {
                     </div>
                 </a>
 
-                <a className="col-10 col-lg-6" id="subwork" rel="noreferrer" href='https://deerran.github.io/WeatherDashboard/' target='_blank'>
+                <Workmap />
+                {/* <a className="col-10 col-lg-5" id="subwork" rel="noreferrer" href='https://deerran.github.io/WeatherDashboard/' target='_blank'>
                     <div id="secondary">
                         <img className="images" src={ weather } />
 
@@ -33,7 +34,7 @@ function Work() {
                     </div>
                 </a>
 
-                <a className="col-6\10 col-lg-4" id="subwork" rel="noreferrer" href='https://old-prego.github.io/pet-adoption/' target='_blank'>
+                <a className="col-10 col-lg-5" id="subwork" rel="noreferrer" href='https://old-prego.github.io/pet-adoption/' target='_blank'>
                     <div id="secondary">
                         <img className="images" src={ findpet } />
                         
@@ -44,7 +45,7 @@ function Work() {
                     </div>
                 </a>
 
-                <a className="col-10 col-lg-4" id="subwork" rel="noreferrer" href='https://github.com/DeerRan/E-commerceBackend' target='_blank'>
+                <a className="col-10 col-lg-5" id="subwork" rel="noreferrer" href='https://github.com/DeerRan/E-commerceBackend' target='_blank'>
                     <div id="secondary">                    
                         <img className="images" src={ commerce } />
 
@@ -55,7 +56,7 @@ function Work() {
                     </div>
                 </a>
                 
-                <a className="col-10 col-lg-4" id="subwork" rel="noreferrer" href='https://github.com/DeerRan/TechBlog' target='_blank'>
+                <a className="col-10 col-lg-5" id="subwork" rel="noreferrer" href='https://github.com/DeerRan/TechBlog' target='_blank'>
                     <div id="secondary">                    
                         <img className="images" src={ techblog } />
 
@@ -64,7 +65,7 @@ function Work() {
                             <p className="overlayp">A functioning Techblog that demonstrates technologies I learned</p>
                         </div>
                     </div>
-                </a>
+                </a> */}
             </div>
         </div>
     );
