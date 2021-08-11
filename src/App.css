@@ -77,9 +77,8 @@
   margin: 40px auto;
 }
 
-#subwork {
-  padding: 0;
-  margin: 20px auto;
+.boxes {
+  margin: 20px;
 }
 
 .images {

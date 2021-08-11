@@ -1,18 +1,17 @@
 import React from "react";
 import workarray from "./workarray"
-import primary from "../Assets/TravelBlogDemo.gif"
 import weather from "../Assets/weatherdash.png"
 import findpet from "../Assets/findpet.png"
 import commerce from "../Assets/commercebackend.png"
 import techblog from "../Assets/techblog.png"
 
-let photos = [primary, weather, findpet, commerce, techblog]
+let photos = [weather, findpet, commerce, techblog]
 
 export function Workmap() {
     return workarray.map((works, i) => {
         return(
-            <div className="col-10 col-lg-5">
-                <a id="subwork" rel="noreferrer" href='https://deerran.github.io/WeatherDashboard/' target='_blank'>
+            <div className="boxes col-10 col-lg-5">
+                <a id="subwork" rel="noreferrer" href= { works.link } target='_blank'>
                     <div id="secondary">
                         <img className="images" src= { photos[i] } />
 

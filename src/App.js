@@ -1,6 +1,6 @@
 import React from "react";
 import { Layout, Header, Navigation, Content, Drawer } from 'react-mdl';
-import { Link, BrowserRouter as Router } from "react-router-dom";
+import { BrowserRouter as Router } from "react-router-dom";
 import Main from "./components/Main";
 import './App.css';
 import Footer from "./components/footer"

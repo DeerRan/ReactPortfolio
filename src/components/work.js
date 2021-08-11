@@ -23,6 +23,7 @@ function Work() {
                 </a>
 
                 <Workmap />
+                
                 {/* <a className="col-10 col-lg-5" id="subwork" rel="noreferrer" href='https://deerran.github.io/WeatherDashboard/' target='_blank'>
                     <div id="secondary">
                         <img className="images" src={ weather } />

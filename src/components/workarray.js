@@ -1,18 +1,23 @@
 const workarray = [
     {
-        name: "TestName",
-        link: "TestLink",
-        p: "TestP",
+        name: "WeatherDashboard",
+        link: "https://deerran.github.io/WeatherDashboard/",
+        p: "A weather forecasting webpage",
     },
     {
-        name: "TestName2",
-        link: "TestLink2",
-        p: "TestP2",
+        name: "Petfinder",
+        link: "https://old-prego.github.io/pet-adoption/",
+        p: "A website for finding pets",
     },
     {
-        name: "TestName3",
-        link: "TestLink3",
-        p: "TestP3",
+        name: "E-commerce Backend",
+        link: "https://github.com/DeerRan/E-commerceBackend",
+        p: "A backend that demonstrates technologies I learned",
+    },
+    {
+        name: "Techblog",
+        link: "https://github.com/DeerRan/TechBlog",
+        p: "A functioning Techblog that demonstrates technologies I learned",
     }
 ]
 
