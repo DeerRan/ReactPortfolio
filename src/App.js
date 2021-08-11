@@ -1,23 +1,33 @@
-import logo from './logo.svg';
+import React from "react";
+import { Layout, Header, Navigation, Content } from 'react-mdl';
+import { Link } from "react-router-dom";
+import Main from "./components/Main";
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Layout>
+        <Header title="Darren Scott" className="header" style={{ backgroundColor: "black" }}>
+          <Navigation>
+            <Link to="/">About Me</Link>
+            <Link to="/work">My Work</Link>
+            <Link to="/resume">Resume</Link>
+          </Navigation>
+
+        </Header>
+
+        <Content>
+          <Main></Main>
+          <div className="footer" style={{ backgroundColor: "black" }}>
+            {/* Insert A link wrap with img inside for github and linkedin */}
+
+            <p style={{ color: "white" }}>
+              FOOOOOOOOOOOOOOOOOOOOOOOT
+            </p>
+          </div>
+        </Content>
+      </Layout>
     </div>
   );
 }
