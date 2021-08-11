@@ -4,8 +4,8 @@ import darren from "../Assets/darrenimg.png"
 function Aboutme() {
     return (
         <div className="aboutmebody">
-            <div id="aboutme" class="row sectioned justify-content-center">
-                <div id='bio' class="col-7">
+            <div id="aboutme" className="row sectioned justify-content-center">
+                <div id='bio' className="col-7">
                     <div>
                         <h2>Who I am?</h2>
                         <p>
@@ -22,7 +22,7 @@ function Aboutme() {
                     </div>
                 </div>
 
-                <section class="selfie col-3">
+                <section className="selfie col-3">
                     <img className="darrenpic" src={ darren } alt="A picture of Darren Scott"/>
                 </section>
             </div>
