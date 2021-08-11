@@ -4,7 +4,7 @@ import resume from "../Assets/MyResume.pdf"
 function Resume() {
     return (
         <div className="resumebody">
-            <a className="link" href= { resume }>
+            <a className="link" target="_blank" href= { resume }>
                 <p>My Resume</p>
             </a>
 
